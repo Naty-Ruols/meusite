@@ -1,0 +1,44 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+imag{
+    max-width: 100%;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+imag{
+    max-width: 100%;
+>>>>>>> 5e29e6ee1d2d2da502c53464852a9e67546efd7d
+}
