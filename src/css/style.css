@@ -102,6 +102,23 @@ justify-content: space-between;
     transform: scale(3);
 }
 
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ESSENCIAL! */
+    border-radius: 50%; /* Deixa a foto redondinha */
+}
+
+.foto {
+    width: 300px; /* Ajusta o tamanho da bolinha */
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5); /* Sombra interna */
+}
+
+
 .home .container-foto {
   display: flex;
   justify-content: center;
