@@ -108,6 +108,9 @@ justify-content: space-between;
     height: 100%;
     object-fit: cover; /* ESSENCIAL! */
     border-radius: 50%; /* Deixa a foto redondinha */
+    cursor: default; /* Isso garante que o cursor padrão seja usado */
+
+
 }
 
 .foto {
@@ -116,6 +119,7 @@ justify-content: space-between;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: inset 0 0 20px rgba(0,0,0,0.5); /* Sombra interna */
+     cursor: default; 
 }
 
 
