@@ -123,6 +123,14 @@ justify-content: space-between;
     z-index: 10; /* A foto fica acima de outros elementos */
 }
 
+
+.home .foto.sombra-interna img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .home .foto.sombra-interna {
   background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
   background-size: 100% 100%;
