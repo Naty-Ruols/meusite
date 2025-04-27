@@ -17,6 +17,9 @@ body{
     padding: 30px 15px;
 }
 
+
+
+
 .cabecalho .logo{
    width: 65px;
 height: 65px;
@@ -99,7 +102,7 @@ justify-content: space-between;
 .home .redes-sociais a i:hover{
     color: #9443d8;
     border: 1px solid #9443d8;
-    transform: scale(3);
+    transform: scale(1.5);
 }
 
 
