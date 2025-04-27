@@ -127,16 +127,16 @@ justify-content: space-between;
 }
 
 .home .foto.sombra-interna {
-  background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
-  background-size: 180% 180%;
-  animation: gradient-animation 5s ease infinite;
-  width: 450px; /* tamanho grande no desktop */
-  height: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  overflow: hidden; /* esconde a imagem fora do círculo */
+    background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
+    background-size: 100% 100%; /* Ajuste para garantir que o gradiente não exceda a imagem */
+    animation: gradient-animation 5s ease infinite;
+    width: 400px; /* Certifique-se de que o tamanho seja adequado à imagem */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .home .container-foto img {
