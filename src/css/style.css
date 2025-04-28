@@ -106,7 +106,7 @@ justify-content: space-between;
 }
 
 
-/* O contêiner da foto, onde a imagem vai estar centralizada */
+/* Container da foto, para centralizar o conteúdo */
 .container-foto {
   display: flex;
   justify-content: center;
@@ -114,32 +114,27 @@ justify-content: space-between;
   padding: 20px;
 }
 
-/* Configuração da imagem dentro do container */
-.home .foto.sombra-interna {
-  width: 400px;
-  height: 400px;
+/* Aqui aplicamos o gradiente e a borda arredondada */
+.foto.sombra-interna {
+  width: 400px; /* Tamanho da área de visualização */
+  height: 400px; /* Tamanho da área de visualização */
+  border-radius: 50%; /* Tornando a borda redonda */
+  background: linear-gradient(to right, rgb(138, 53, 200), rgb(24, 192, 99), rgb(0, 238, 162)); /* Gradiente */
   display: flex;
-  align-items: center;
   justify-content: center;
-  border-radius: 50%; /* Para deixar a borda arredondada */
-  background: linear-gradient(to right, rgb(138, 53, 200), rgb(24, 192, 99), rgb(0, 238, 162));
-  background-size: 100% 100%;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px inset;
-  animation: gradient-animation 5s ease infinite;
-  overflow: hidden;
-  position: relative; /* Para garantir que a imagem fique dentro da área */
+  align-items: center;
+  overflow: hidden; /* Esconde o excesso da imagem */
+  position: relative;
+  box-shadow: inset 0px 0px 20px rgba(0,0,0,0.5); /* Sombra interna */
 }
 
-/* A imagem em si, ajustada para ocupar o tamanho correto */
-.home .foto.sombra-interna img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ajusta a imagem para cobrir todo o espaço disponível */
-  border-radius: 50%; /* Para manter a imagem redonda */
-  position: absolute; /* A imagem ocupa a div de forma absoluta */
-  z-index: 10; /* Para garantir que a imagem fique sobre o gradiente */
+/* A imagem deve preencher completamente a área do gradiente */
+.foto.sombra-interna img {
+  width: 100%; /* Faz a imagem ocupar toda a área */
+  height: 100%; /* Faz a imagem ocupar toda a área */
+  object-fit: cover; /* A imagem vai cobrir todo o espaço sem distorcer */
+  border-radius: 50%; /* Garantir que a imagem também tenha bordas arredondadas */
 }
-
 
 
 
