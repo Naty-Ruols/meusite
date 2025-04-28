@@ -119,7 +119,7 @@ justify-content: space-between;
   width: 400px; /* Tamanho da área de visualização */
   height: 400px; /* Tamanho da área de visualização */
   border-radius: 50%; /* Tornando a borda redonda */
-  background: linear-gradient(to right, rgb(138, 53, 200), rgb(24, 192, 99), rgb(0, 238, 162)); /* Gradiente */
+  background: #fff
   display: flex;
   justify-content: center;
   align-items: center;
